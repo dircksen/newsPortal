@@ -1,0 +1,24 @@
+{
+  "name": "newsportal",
+  "version": "1.0.0",
+  "description": "a portal with everything you need to know",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dircksen/newsPortal.git"
+  },
+  "author": "Filipe Dircsken",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dircksen/newsPortal/issues"
+  },
+  "homepage": "https://github.com/dircksen/newsPortal#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
