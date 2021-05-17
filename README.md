@@ -6,8 +6,11 @@
 ### Features
 
 - [x] Configurações iniciais
+- [x] Telas iniciais.
+- [x] Conexão ao banco MySQL e recuperação de dados.
+- [x] Implementação do consign (routes, models e modules).
+- [x] Models iniciais.
 <!-- - [x] Autenticação de Login.
-- [x] Reset password usando mailer.
 - [x] Crud Inicial (Projetos e Tarefas)
 - [ ] FireBase Authentication -->
 

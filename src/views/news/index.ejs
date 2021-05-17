@@ -5,8 +5,18 @@
 			<title>Notícias</title>
 		</head>
 	<body>
-
 		<h1>Notícias</h1>
-
+		<table>
+			<tr>
+				<td>Id</td>
+				<td>Título</td>
+			</tr>
+			<% for(var i=0; i < news.length ; i++){ %>
+				<tr>
+					<td><%= news[i].id %></td>
+					<td><%= news[i].title %></td>
+				</tr>
+			<%}%>
+		</table>
 	</body>
 </html>
