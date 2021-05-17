@@ -48,7 +48,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Express](https://expressjs.com/)
 - [Node.js](https://nodejs.org/en/)
-- [MongoDB](https://www.mongodb.com/)
+- [MySQL](https://www.mysql.com/)
+- [EJS](https://ejs.co/)
 
 ### Autor
 ---
