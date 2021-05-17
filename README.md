@@ -31,7 +31,7 @@ de configuração (src\config\mail.json). -->
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/dircksen/nodeStudy.git>
+$ git clone <https://github.com/dircksen/newsPortal.git>
 
 # Instale as dependências
 $ npm install
