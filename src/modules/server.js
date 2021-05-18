@@ -1,8 +1,10 @@
 var express = require('express');
 var consign = require('consign')();
 var path = require('path');
-
+var parser = require('body-parser');
 var app = express();
+
+app.use(parser.urlencoded({extended:true}));
 
 consign
     .include('src/modules/database.js')
