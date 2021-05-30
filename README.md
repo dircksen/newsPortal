@@ -9,8 +9,10 @@
 - [x] Telas iniciais.
 - [x] Conexão ao banco MySQL e recuperação de dados.
 - [x] Implementação do consign (routes, models e modules).
-- [x] Models iniciais.
 - [x] Form de inserção de notícias.
+- [x] Classes DAO.
+- [x] Validação e Recuperação de dados nas views (Express-validator).
+- [x] Design Pattern MVC.
 <!-- - [x] Autenticação de Login.
 - [x] Crud Inicial (Projetos e Tarefas)
 - [ ] FireBase Authentication -->

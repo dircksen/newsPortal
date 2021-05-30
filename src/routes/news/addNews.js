@@ -1,15 +1,9 @@
 module.exports = function(app){
     app.get('/addNews', function(req,res){
-        res.render('admin/form_add_news');
+        app.src.controllers.NewsController.home(app,req,res);
     });
 
     app.post('/news/save', function(req,res){
-        var newNews = req.body;
-        var connection = app.src.modules.database();
-        var news = app.src.models.news;
-    
-        news.saveNews(newNews, connection, function(error,result){
-            res.redirect('/noticias');
-        });
+        app.src.controllers.NewsController.saveNews(app,req,res);
     });
 };
