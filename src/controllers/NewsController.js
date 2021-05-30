@@ -11,8 +11,19 @@ function validator(req){
 }
 
 module.exports.home = function(app, req, res){
+    var connection = app.src.modules.database();
+    var news = new app.src.models.news(connection);
+    
+    news.getLastFive(function(error,result){
+        console.log(result[0]);
+        res.render('home/', {data:result});
+    });
+}
+
+module.exports.addNews = function(app, req, res){
     res.render('admin/form_add_news',{validations:{}, data:{}});
 }
+
 
 module.exports.saveNews = function(app,req,res){
     var newNews = req.body;
@@ -36,16 +47,16 @@ module.exports.listNews = function(app, req, res){
     var news = new app.src.models.news(connection);
 
     news.getNews(function(error,result){
-        res.render('news/', {news : result});
+        res.render('news/', {data : result});
     });
 }
 
-module.exports.getNewsById = function(app, req, res,id){
+module.exports.getNewsById = function(app, req, res, id){
 
     var connection = app.src.modules.database();
     var news = new app.src.models.news(connection);
 
     news.getNewsById(id,function(error,result){
-        res.render('news/newsDetails', {newsDetails : result});
+        res.render('news/newsDetails', {data : result});
     });
 }

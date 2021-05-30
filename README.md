@@ -5,14 +5,12 @@
 
 ### Features
 
-- [x] Configurações iniciais
-- [x] Telas iniciais.
 - [x] Conexão ao banco MySQL e recuperação de dados.
 - [x] Implementação do consign (routes, models e modules).
-- [x] Form de inserção de notícias.
 - [x] Classes DAO.
 - [x] Validação e Recuperação de dados nas views (Express-validator).
 - [x] Design Pattern MVC.
+- [x] Criação, listagem e home funcionais.
 <!-- - [x] Autenticação de Login.
 - [x] Crud Inicial (Projetos e Tarefas)
 - [ ] FireBase Authentication -->

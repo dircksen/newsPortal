@@ -1,5 +1,5 @@
 module.exports = function(app){
     app.get('/', function(req,res){
-        res.render('home/');
+        app.src.controllers.NewsController.home(app,req,res);
     });
 };

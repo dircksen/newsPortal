@@ -5,7 +5,7 @@ var parser = require('body-parser');
 var expressValidator = require('express-validator');
 var app = express();
 
-
+app.use(express.static('./src/public'));
 app.use(parser.urlencoded({extended:true}));
 app.use(expressValidator());
 
