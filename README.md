@@ -11,9 +11,6 @@
 - [x] Validação e Recuperação de dados nas views (Express-validator).
 - [x] Design Pattern MVC.
 - [x] Criação, listagem e home funcionais.
-<!-- - [x] Autenticação de Login.
-- [x] Crud Inicial (Projetos e Tarefas)
-- [ ] FireBase Authentication -->
 
 
 ### Pré-requisitos
