@@ -15,7 +15,6 @@ module.exports.home = function(app, req, res){
     var news = new app.src.models.news(connection);
     
     news.getLastFive(function(error,result){
-        console.log(result[0]);
         res.render('home/', {data:result});
     });
 }
